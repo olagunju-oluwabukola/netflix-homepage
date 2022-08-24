@@ -1,0 +1,192 @@
+*{
+ margin:0;
+ padding: 0;
+
+}
+body{
+ background-color: rgb(63, 61, 61);
+}
+.page1{
+ height: 100vh;
+width: 100%;
+ background: #cc546c;
+ color: white;
+background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url('page1.jpg');
+overflow: hidden;
+ justify-content: center;
+ text-align: center;
+ font-family: sans-serif;
+font-size: xx-large;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;
+font-family: sans-serif;
+}
+header{
+ display: flex;
+
+}
+header h1{
+ color: rgb(255, 0, 0);
+ font-size: calc(2em);
+ position: absolute;
+left: 10px;
+top: 12px;
+font-style: oblique;
+}
+header button{
+ position: absolute;
+ right: 50px;
+ top: 15px;
+ text-transform: capitalize;
+ text-decoration: none;
+ color: #fff;
+ background-color: red;
+ width: 65px;
+ height: 30px;
+ border-radius: 5px;
+ font-weight: bolder;
+ font-size: large;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+}
+.header{
+ position: absolute;
+ top: 100px;
+  left: 10em;
+ justify-content: center;
+ text-align: center;
+ line-height: 50px;
+}
+ .email{
+width: 35em;
+height: 3em;
+font-size: large;
+}
+.button{
+ text-transform: capitalize;
+ text-decoration: none;
+ color: #fff;
+ background-color: red;
+ width: 110px;
+ height: 40px;
+ border-radius: 5px;
+ font-weight: bold;
+ font-size: large;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+}
+.page2{
+ position: absolute;
+ top: 24em;
+ padding-top: 3em;
+ background-color: black;
+ width: 100%;
+ line-height: 2em;
+}
+.page3{
+ position: absolute;
+ top: 55em;
+ padding-top: 3em;
+ background-color: black;
+ width: 100%;
+ line-height: 2em;
+ margin-top: 1.5em;
+}
+.border{
+ display: flex;
+ border: 1px grey solid;
+ width: 15em;
+ position: absolute;
+ justify-items: center;
+ text-align: center;
+
+}
+.page4{
+ position: absolute;
+ padding-top: 3em;
+ background-color: black;
+ width: 100%;
+ height: 25vh;
+ line-height: 2em;
+ margin-top: 1em;
+
+}
+.page5{
+ position: absolute;
+top: 100em;
+ background-color: black;
+ width: 100%;
+ height: 110vh;
+ line-height: 2em;
+ margin-top: 0.5em;
+ padding-top: 1em;
+}
+.page6{
+ position: absolute;
+ top: 130em;
+  background-color: black;
+  width: 100%;
+  height: 120vh;
+  line-height: 2em;
+  margin-top: 3.5em;
+  padding-top: 1em;
+}
+.page6 button{
+ position: absolute;
+ left: 35em;
+margin-right: 0;
+padding: 0;
+box-sizing: border-box;
+border: 2px solid grey;
+background-color: grey;
+color: #fff;
+height: 4em;
+width: 60em;
+font-size: small;
+margin-top: 0.5em;
+}
+.page7{
+ position: absolute;
+ top: 170em;
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  margin-top: 0.1em;
+  padding-top: 1em;
+  text-align: center;
+}
+.page7 a{
+ display: flex;
+ text-transform: capitalize;
+ color: rgb(245, 238, 238);
+ text-decoration: none;
+ font-size: large;
+}
+.link1{
+  display: flex;
+}
+.link1  a{
+position: absolute;
+left: 45em;
+}
+.right{
+  position: absolute;
+  left: 9em;
+ 
+}
+.link1 a:hover{
+  text-decoration: underline;
+  color: red;
+}
+footer{
+  position: absolute;
+  top: 372em; 
+  left: 5em;
+  font-size: medium;
+}
